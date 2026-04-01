@@ -134,6 +134,7 @@ CodeDialer/
 │       │   │   └── com/
 │       │   │       └── codedialer/
 │       │   │           └── secretcode/
+│       │   │               │
 │       │   │               ├── Data/
 │       │   │               │   ├── Local/
 │       │   │               │   │   ├── AppDatabase.kt
@@ -183,10 +184,19 @@ CodeDialer/
 │       │
 │       └── test/
 │
+│
 ├── Docs/
+│   ├── Architecture.md
+│   ├── Api_reference.md
+│   ├── Api_changelog.md
+│   ├── Developer_guide.md
+│   ├── Support_policy.md
+│   ├── Roadmap.md
+│   ├── Maintainers.md
+│   │
 │   ├── Introduction.md
 │   ├── Liste_Codes.md
-│   ├── FonctionnementUSSDMMI.md
+│   ├── Fonctionnement_USSD_MMI.md
 │   ├── Compatibilite_Constructeurs.md
 │   ├── Securite.md
 │   ├── Limitations.md
@@ -200,7 +210,27 @@ CodeDialer/
 │       ├── favorites_placeholder.png
 │       └── dialer_placeholder.png
 │
+│
+├── .github/
+│   ├── CODEOWNERS
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
+│   ├── SECURITY.md
+│   ├── SECURITY_CONTACTS.md
+│   ├── SECURITY_RESPONSE_PROCESS.md
+│   ├── SECURITY_ADVISORY_TEMPLATE.md
+│   ├── GOVERNANCE.md
+│   ├── RELEASE_TEMPLATE.md
+│   │
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   │
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── SUPPORT.md
+│
 ├── README.md
+├── CHANGELOG.md
 ├── LICENSE
 └── .gitignore
 `
