@@ -1,0 +1,27 @@
+# CODEOWNERS — CodeDialer
+# Ce fichier définit les responsables des différentes parties du projet.
+# Toute modification dans les zones listées nécessite leur approbation.
+
+# Propriétaire principal du projet
+* @USERNAME
+
+# Architecture & logique métier
+app/src/main/java/com/codedialer/secretcode/Domain/ @USERNAME
+
+# Base de données, DAO, Repository
+app/src/main/java/com/codedialer/secretcode/Data/ @USERNAME
+
+# Interface utilisateur (UI)
+app/src/main/java/com/codedialer/secretcode/UI/ @USERNAME
+
+# Navigation
+app/src/main/java/com/codedialer/secretcode/Navigation/ @USERNAME
+
+# Utils
+app/src/main/java/com/codedialer/secretcode/Utils/ @USERNAME
+
+# Documentation
+Docs/ @USERNAME
+
+# Fichiers GitHub
+.github/ @USERNAME
