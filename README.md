@@ -30,23 +30,50 @@ Ce projet fournit une interface simple, une base documentaire complète et une a
 📂 Structure du projet
 
 `
-CodeDialer/
+android-secret-codes/
 │
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/teremu/secretcodes/
-│   │   │   │   ├── MainActivity.kt
-│   │   │   │   ├── CodeListAdapter.kt
-│   │   │   │   ├── CodeExecutor.kt
-│   │   │   │   └── models/SecretCode.kt
-│   │   │   └── res/
-│   │   └── AndroidManifest.xml
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── teremu/
+│   │   │   │           └── secretcodes/
+│   │   │   │               ├── MainActivity.kt
+│   │   │   │               ├── CodeExecutor.kt
+│   │   │   │               ├── CodeListAdapter.kt
+│   │   │   │               ├── CategoryAdapter.kt
+│   │   │   │               │
+│   │   │   │               ├── models/
+│   │   │   │               │   └── SecretCode.kt
+│   │   │   │               │
+│   │   │   │               └── database/
+│   │   │   │                   ├── AppDatabase.kt
+│   │   │   │                   ├── SecretCodeDao.kt
+│   │   │   │                   ├── SecretCodeEntity.kt
+│   │   │   │                   └── DatabaseInitializer.kt
+│   │   │   │
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   └── item_category.xml
+│   │   │   │   │
+│   │   │   │   ├── drawable/
+│   │   │   │   │   └── category_bg.xml
+│   │   │   │   │
+│   │   │   │   └── values/
+│   │   │   │       └── styles.xml
+│   │   │   │
+│   │   │   └── AndroidManifest.xml
+│   │   │
+│   │   └── test/ (optionnel)
+│   │
+│   └── build.gradle
 │
 └── docs/
     ├── introduction.md
     ├── liste_codes.md
-    ├── fonctionnementussdmmi.md
+    ├── fonctionnement_ussd_mmi.md
     ├── compatibilite_constructeurs.md
     ├── securite.md
     └── limitations.md
