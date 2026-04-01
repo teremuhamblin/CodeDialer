@@ -1,4 +1,4 @@
-> ## Android : `Codes Manager`
+> ## Android : `CodeDialer`
 - Application Android permettant d’afficher, comprendre, tester et exécuter les codes secrets du type #1234#, #06#, #0#, etc.  
 > Ces codes : `appelés codes MMI, codes USSD ou codes secrets constructeur`
 - Donnent accès à des menus techniques, des informations système ou des fonctions cachées selon les appareils.
@@ -30,7 +30,7 @@ Ce projet fournit une interface simple, une base documentaire complète et une a
 📂 Structure du projet
 
 `
-android-secret-codes/
+CodeDialer/
 │
 ├── app/
 │   ├── src/
