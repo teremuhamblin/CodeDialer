@@ -11,10 +11,12 @@ object DatabaseInitializer {
             val dao = db.secretCodeDao()
 
             val initialCodes = listOf(
-                SecretCodeEntity(code = "*#06#", description = "Afficher l'IMEI"),
-                SecretCodeEntity(code = "*#0*#", description = "Menu de test matériel (Samsung)"),
-                SecretCodeEntity(code = "*#1234#", description = "Informations firmware"),
-                SecretCodeEntity(code = "*#*#4636#*#*", description = "Informations téléphone")
+                SecretCodeEntity(code = "*#06#", description = "Afficher l'IMEI", category = "Universel"),
+                SecretCodeEntity(code = "*#0*#", description = "Menu de test matériel", category = "Samsung"),
+                SecretCodeEntity(code = "*#1234#", description = "Informations firmware", category = "Samsung"),
+                SecretCodeEntity(code = "*#*#4636#*#*", description = "Infos téléphone", category = "Android"),
+                SecretCodeEntity(code = "*#*#225#*#*", description = "Agenda", category = "Android"),
+                SecretCodeEntity(code = "*#*#426#*#*", description = "Diagnostics réseau", category = "Android")
             )
 
             dao.insertAll(initialCodes)
