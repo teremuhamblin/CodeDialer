@@ -4,16 +4,13 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.teremu.secretcodes.models.SecretCode
+import com.teremu.secretcodes.database.AppDatabase
+import com.teremu.secretcodes.database.DatabaseInitializer
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
-
-    private val codes = listOf(
-        SecretCode("*#06#", "Afficher l'IMEI"),
-        SecretCode("*#0*#", "Menu de test matériel (Samsung)"),
-        SecretCode("*#1234#", "Informations firmware"),
-        SecretCode("*#*#4636#*#*", "Informations téléphone", isDangerous = false)
-    )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,8 +18,24 @@ class MainActivity : AppCompatActivity() {
 
         val recycler = findViewById<RecyclerView>(R.id.recyclerView)
         recycler.layoutManager = LinearLayoutManager(this)
-        recycler.adapter = CodeListAdapter(codes) { code ->
-            CodeExecutor.execute(this, code.code)
+
+        val db = AppDatabase.getDatabase(this)
+        DatabaseInitializer.populate(db)
+
+        CoroutineScope(Dispatchers.IO).launch {
+            val codes = db.secretCodeDao().getAllCodes()
+
+            runOnUiThread {
+                recycler.adapter = CodeListAdapter(codes.map {
+                    com.teremu.secretcodes.models.SecretCode(
+                        code = it.code,
+                        description = it.description,
+                        isDangerous = it.isDangerous
+                    )
+                }) { code ->
+                    CodeExecutor.execute(this@MainActivity, code.code)
+                }
+            }
         }
     }
 }
