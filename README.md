@@ -1,4 +1,4 @@
-> # Android Secret Codes Manager
+> ## Android : `Codes Manager`
 - Application Android permettant d’afficher, comprendre, tester et exécuter les codes secrets du type #1234#, #06#, #0#, etc.  
 > Ces codes : `appelés codes MMI, codes USSD ou codes secrets constructeur`
 - Donnent accès à des menus techniques, des informations système ou des fonctions cachées selon les appareils.
