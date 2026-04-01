@@ -1,25 +1,37 @@
-package com.teremu.secretcodes.database
+val initialCodes = listOf(
 
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
+    // UNIVERSAL
+    SecretCodeEntity("*#06#", "Afficher l'IMEI", "Universel"),
+    SecretCodeEntity("*#07#", "Informations réglementaires", "Universel"),
 
-object DatabaseInitializer {
+    // ANDROID
+    SecretCodeEntity("*#*#4636#*#*", "Infos téléphone", "Android"),
+    SecretCodeEntity("*#*#225#*#*", "Agenda", "Android"),
+    SecretCodeEntity("*#*#426#*#*", "Diagnostics réseau", "Android"),
 
-    fun populate(db: AppDatabase) {
-        CoroutineScope(Dispatchers.IO).launch {
-            val dao = db.secretCodeDao()
+    // OPERATEUR / USSD
+    SecretCodeEntity("*100#", "Solde opérateur", "Opérateur"),
+    SecretCodeEntity("#123#", "Menu opérateur", "Opérateur"),
 
-            val initialCodes = listOf(
-                SecretCodeEntity(code = "*#06#", description = "Afficher l'IMEI", category = "Universel"),
-                SecretCodeEntity(code = "*#0*#", description = "Menu de test matériel", category = "Samsung"),
-                SecretCodeEntity(code = "*#1234#", description = "Informations firmware", category = "Samsung"),
-                SecretCodeEntity(code = "*#*#4636#*#*", description = "Infos téléphone", category = "Android"),
-                SecretCodeEntity(code = "*#*#225#*#*", description = "Agenda", category = "Android"),
-                SecretCodeEntity(code = "*#*#426#*#*", description = "Diagnostics réseau", category = "Android")
-            )
+    // SAMSUNG
+    SecretCodeEntity("*#0*#", "Menu de test matériel", "Samsung"),
+    SecretCodeEntity("*#1234#", "Infos firmware", "Samsung"),
 
-            dao.insertAll(initialCodes)
-        }
-    }
-}
+    // XIAOMI
+    SecretCodeEntity("*#*#6484#*#*", "Menu de test matériel", "Xiaomi"),
+
+    // HUAWEI
+    SecretCodeEntity("*#*#2846579#*#*", "ProjectMenu", "Huawei"),
+
+    // ONEPLUS
+    SecretCodeEntity("*#808#", "Tests matériels", "OnePlus"),
+
+    // TECHNIQUE
+    SecretCodeEntity("*#*#232339#*#*", "Test WiFi", "Réseau"),
+    SecretCodeEntity("*#*#2664#*#*", "Test écran tactile", "Matériel"),
+    SecretCodeEntity("*#*#232331#*#*", "Test Bluetooth", "Matériel"),
+
+    // DANGEREUX
+    SecretCodeEntity("*#*#7780#*#*", "Reset paramètres", "Danger", isDangerous = true),
+    SecretCodeEntity("*2767*3855#", "Factory reset complet", "Danger", isDangerous = true)
+)
