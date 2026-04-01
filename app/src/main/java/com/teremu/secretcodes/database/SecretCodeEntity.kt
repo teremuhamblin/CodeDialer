@@ -8,5 +8,6 @@ data class SecretCodeEntity(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val code: String,
     val description: String,
+    val category: String,
     val isDangerous: Boolean = false
 )
