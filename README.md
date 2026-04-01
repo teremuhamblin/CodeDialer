@@ -30,7 +30,7 @@ Ce projet fournit une interface simple, une base documentaire complète et une a
 📂 Structure du projet
 
 `
-android-secret-codes/
+CodeDialer/
 │
 ├── app/
 │   ├── src/
