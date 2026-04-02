@@ -1,0 +1,38 @@
+# ============================================================
+# AVANT DE LIRE — IMPORTANT
+#
+# Ce workflow CI/CD est un TOUT‑EN‑UN complet pour CodeDialer.
+# Il inclut :
+#   ✔ Build Debug + Release
+#   ✔ Tests unitaires
+#   ✔ Lint Android
+#   ✔ ktlint (si configuré)
+#   ✔ detekt (si configuré)
+#   ✔ Création AVD + lancement émulateur
+#   ✔ Tests instrumentés AndroidTest
+#   ✔ Analyse CodeQL
+#   ✔ Analyse SonarCloud
+#   ✔ Release automatique GitHub (APK)
+#   ✔ Publication Google Play (track internal)
+#   ✔ Distribution Firebase App Distribution
+#   ✔ Nightly builds (cron)
+#   ✔ Auto-merge Dependabot
+#
+# Secrets nécessaires :
+#   - GITHUB_TOKEN (automatique)
+#   - PLAY_STORE_JSON
+#   - FIREBASE_TOKEN
+#   - FIREBASE_APP_ID
+#   - SONAR_TOKEN
+#
+# Ce fichier est optimisé pour :
+#   - AGP 8+
+#   - Kotlin 1.9+
+#   - Java 17
+#   - Hilt, Room, Navigation, ViewBinding
+#   - Structure Clean Architecture de CodeDialer
+#
+# ============================================================
+
+
+
