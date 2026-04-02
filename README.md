@@ -5,7 +5,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=4200&pause=760&color=58A6FF&center=true&vCenter=true&multiline=false&width=580&lines=Codes+Constructeur+-+ANDROID;Codes+USSD;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=4200&pause=760&color=58A6FF&center=true&vCenter=true&multiline=false&width=580&lines=Codes+Constructeur+-+ANDROID;Codes+de+Services+USSD;Code+d'interface+MMI)](https://git.io/typing-svg)
 
 <br/>
 
