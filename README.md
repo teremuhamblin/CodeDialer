@@ -1,8 +1,12 @@
 ###### 📘 markdown — projet open-sources
 # CodeDialer
 
-<p align="left">
-  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/build.yml/badge.svg" alt="Build" />
+<p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/build.yml?label=Build&logo=android&logoColor=white&color=3DDC84&style=for-the-badge" />
+  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/tests.yml?label=Unit%20Tests&logo=pytest&logoColor=white&color=blue&style=for-the-badge" />
+  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/lint.yml?label=Android%20Lint&logo=android&logoColor=white&color=yellow&style=for-the-badge" />
+  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/instrumented-tests.yml?label=Instrumented%20Tests&logo=google&logoColor=white&color=orange&style=for-the-badge" />
+  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/ci-cf_ultimate.yml?label=CI%2FCD%20Ultimate&logo=githubactions&logoColor=white&color=purple&style=for-the-badge" />
 </p>
 
 ---
