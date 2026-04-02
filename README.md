@@ -1,6 +1,5 @@
 ###### 📘 markdown — projet open-sources
-
-> # CodeDialer
+# CodeDialer
 
 <p align="center">
   <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/build.yml/badge.svg" />
@@ -12,9 +11,10 @@
 
 ---
 
-# 🎨 Logo du projet
+## 🎨 Logo du projet
 
 `md
+
 <p align="center">
   <img src="Docs/Images/logo.png" alt="CodeDialer Logo" width="200"/>
 </p>
@@ -22,7 +22,7 @@
 
 ---
 
-# 📱 Présentation
+## 📱 Présentation
 
 `CodeDialer` est une application Android moderne permettant :
 - de consulter, organiser, rechercher et exécuter des codes secrets (USSD, MMI, manufacturer codes).  
@@ -30,7 +30,7 @@
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 
 Ajoute tes captures d’écran dans :  
 `
@@ -39,22 +39,22 @@ Docs/Screenshots/
 
 `md
 
-🏠 Écran d’accueil
+### 🏠 Écran d’accueil
 <p align="center">
   <img src="Docs/Screenshots/home_placeholder.png" alt="Home Screen" width="300"/>
 </p>
 
-📂 Catégories
+### 📂 Catégories
 <p align="center">
   <img src="Docs/Screenshots/categories_placeholder.png" alt="Categories Screen" width="300"/>
 </p>
 
-⭐ Favoris
+### ⭐ Favoris
 <p align="center">
   <img src="Docs/Screenshots/favorites_placeholder.png" alt="Favorites Screen" width="300"/>
 </p>
 
-📞 Exécution d’un code
+### 📞 Exécution d’un code
 <p align="center">
   <img src="Docs/Screenshots/dialer_placeholder.png" alt="Dialer Execution" width="300"/>
 </p>
@@ -62,7 +62,7 @@ Docs/Screenshots/
 
 ---
 
-🚀 Fonctionnalités principales
+## 🚀 Fonctionnalités principales
 
 - 🔍 Recherche intelligente  
 - 📂 Catégories organisées  
@@ -75,7 +75,7 @@ Docs/Screenshots/
 
 ---
 
-🧱 Architecture du projet
+## 🧱 Architecture du projet
 
 Le projet suit une architecture inspirée de Clean Architecture :
 
@@ -102,7 +102,7 @@ Le projet suit une architecture inspirée de Clean Architecture :
 
 ---
 
-📂 Structure du projet
+## 📂 Structure du projet
 
 `
 CodeDialer/
@@ -222,16 +222,16 @@ CodeDialer/
 
 ---
 
-📛 Badges supplémentaires
+## 📛 Badges supplémentaires
 
 `md
 ![Android API]()
-![Open Source Love]()
-`
+![Open Source Love]()`
+
 
 ---
 
-⚡ Optimisations de performance & stabilité
+## ⚡ Optimisations de performance & stabilité
 
 - DAO indexés et optimisés  
 - Repository unique pour éviter les collisions  
@@ -243,7 +243,7 @@ CodeDialer/
 
 ---
 
-🚀 Installation
+## 🚀 Installation
 
 `
 git clone https://github.com/USERNAME/CodeDialer.git
@@ -253,7 +253,7 @@ Ouvrir dans Android Studio (Giraffe ou plus récent), compiler et lancer.
 
 ---
 
-🧭 Roadmap
+## 🧭 Roadmap
 
 - Import/export JSON  
 - Synchronisation cloud  
@@ -265,16 +265,16 @@ Ouvrir dans Android Studio (Giraffe ou plus récent), compiler et lancer.
 
 ---
 
-📄 Licence
+## 📄 Licence
 
 Projet sous licence MIT.
 
 ---
 
-🎉 Conclusion
+# 🎉 Conclusion
 
-CodeDialer est une application Android moderne, stable et performante, conçue pour offrir une gestion complète des codes secrets et USSD.  
-Grâce à son architecture propre et modulaire, elle est facile à maintenir, enrichir et optimiser.
+> CodeDialer est une application Android moderne, stable et performante, conçue pour offrir une gestion complète des codes secrets et USSD.  
+> Grâce à son architecture propre et modulaire, elle est facile à maintenir, enrichir et optimiser.
 
 `
 
