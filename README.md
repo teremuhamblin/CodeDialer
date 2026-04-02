@@ -3,10 +3,6 @@
 
 <p align="left">
   <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/build.yml/badge.svg" alt="Build" />
-  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/tests.yml/badge.svg" alt="Tests" />
-  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/lint.yml/badge.svg" alt="Lint" />
-  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/instrumented-tests.yml/badge.svg" alt="Instrumented Tests" />
-  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/ci-cf_ultimate.yml/badge.svg" alt="CI-CD Ultimate" />
 </p>
 
 ---
