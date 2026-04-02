@@ -16,7 +16,7 @@
 `md
 
 <p align="center">
-  <img src="Docs/Images/logo.png" alt="CodeDialer Logo" width="200"/>
+  <img src="docs/Images/logo.png" alt="CodeDialer Logo" width="200"/>
 </p>
 `
 
