@@ -1,13 +1,16 @@
 ###### 📘 markdown — projet open-sources
-# CodeDialer
 
-<p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/build.yml?label=Build&logo=android&logoColor=white&color=3DDC84&style=for-the-badge" />
-  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/tests.yml?label=Unit%20Tests&logo=pytest&logoColor=white&color=blue&style=for-the-badge" />
-  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/lint.yml?label=Android%20Lint&logo=android&logoColor=white&color=yellow&style=for-the-badge" />
-  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/instrumented-tests.yml?label=Instrumented%20Tests&logo=google&logoColor=white&color=orange&style=for-the-badge" />
-  <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/CodeDialer/ci-cf_ultimate.yml?label=CI%2FCD%20Ultimate&logo=githubactions&logoColor=white&color=purple&style=for-the-badge" />
-</p>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=CodeDialer&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Constructeur,+USSD,+MMI&descAlignY=58&descColor=a8b2d8&animation=fadeIn" width="100%"/>
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=4200&pause=760&color=58A6FF&center=true&vCenter=true&multiline=false&width=580&lines=Codes+Constructeur+-+ANDROID;11ème+Brigade+Parachutiste+-+2ème+REP;Opérateur+de+Renseignement+du+GCP)](https://git.io/typing-svg)
+
+<br/>
+
+![Status](https://img.shields.io/badge/Status-ACTIF-%23ff6f61)
+</div>
 
 ---
 
