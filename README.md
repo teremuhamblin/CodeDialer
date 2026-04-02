@@ -12,7 +12,7 @@
 
 ---
 
-🎨 Logo du projet
+# 🎨 Logo du projet
 
 `md
 <p align="center">
@@ -22,10 +22,11 @@
 
 ---
 
-📱 Présentation
+# 📱 Présentation
 
-CodeDialer est une application Android moderne permettant de consulter, organiser, rechercher et exécuter des codes secrets (USSD, MMI, manufacturer codes).  
-Elle repose sur une architecture Clean Architecture, modulaire, performante et stable, pensée pour évoluer facilement.
+`CodeDialer` est une application Android moderne permettant :
+- de consulter, organiser, rechercher et exécuter des codes secrets (USSD, MMI, manufacturer codes).  
+- elle repose sur une architecture Clean Architecture, modulaire, performante et stable, pensée pour évoluer facilement.
 
 ---
 
