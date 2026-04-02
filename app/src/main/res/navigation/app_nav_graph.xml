@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.codedialer.secretcode.UI.Home.HomeFragment"
+        android:label="@string/home" />
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.codedialer.secretcode.UI.Categories.CategoriesFragment"
+        android:label="@string/categories" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.codedialer.secretcode.UI.Favorites.FavoritesFragment"
+        android:label="@string/favorites" />
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.codedialer.secretcode.UI.Details.DetailsFragment"
+        android:label="@string/details" />
+</navigation>
