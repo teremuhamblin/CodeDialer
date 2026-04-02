@@ -1,30 +1,14 @@
 ###### 📘 markdown — projet open-sources
 
-`
-`
-                             _           
-  / |   | |  |   \()  | |    
- | |   /  \ /  |/  \| | | | |/  | |/  \ '_|
- | || () | (| |  /| || | | (| | |  / |   
-  \\/ \,|\||/||\,||\||   
-                                                   
-`
-`md
+> # CodeDialer
 
-![Build Status](https://github.com/USERNAME/CodeDialer/actions)
-![Gradle Build]()
-![Android Verified]()
-![Version]()
-![Release](https://github.com/USERNAME/CodeDialer/releases)
-![License](LICENSE)
-![Platform]()
-![Kotlin]()
-![Compose]()
-![API Level]()
-![Code Quality]()
-![Coverage](https://codecov.io/gh/USERNAME/CodeDialer)
-![Issues](https://github.com/USERNAME/CodeDialer/issues)
-![Stars](https://github.com/USERNAME/CodeDialer/stargazers)
+<p align="center">
+  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/build.yml/badge.svg" />
+  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/tests.yml/badge.svg" />
+  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/lint.yml/badge.svg" />
+  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/instrumented-tests.yml/badge.svg" />
+  <img src="https://github.com/teremuhamblin/CodeDialer/actions/workflows/ci-cf_ultimate.yml/badge.svg" />
+</p>
 
 ---
 
