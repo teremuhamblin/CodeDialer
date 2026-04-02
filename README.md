@@ -7,10 +7,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=4200&pause=760&color=58A6FF&center=true&vCenter=true&multiline=false&width=580&lines=Codes+Constructeur+-+ANDROID;Codes+de+Services+USSD;Code+d'interface+MMI)](https://git.io/typing-svg)
 
-<br/>
+![Status](https://img.shields.io/badge/Status-ACTIF-%28ff4f)
 
-![Status](https://img.shields.io/badge/Status-ACTIF-%23ff6f61)
-</div>
+![Status](https://img.shields.io/badge/Project-ON-%28ff4f)
 
 ---
 
